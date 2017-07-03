@@ -6,8 +6,50 @@
 	<title>Tp angular js : Webmail</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <!---[if it IE 9]>
+        <script src="html5shiv.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-	
+    <div class="container">
+        <ul class="nav nav-pills spacer">
+            <li class="active"><a href="">Boite de réception</a></li>
+            <li><a href="">Courrier indésirable</a></li>
+            <li><a href="">Brouillon</a></li>
+            <li><a href="">Envoyé</a></li>
+        </ul>
+
+        <table class="table table-striped table-hover">
+            <thead>
+                <th>De</th>
+                <th>&Agrave;</th>
+                <th>Objet</th>
+                <th>Date</th>
+            </thead>
+            <tbody>
+                <tr class="clickable">
+                    <td>Tamy</td>
+                    <td>Anouchka</td>
+                    <td>Kikou</td>
+                    <td>03/07/2017</td>
+                </tr>
+                <tr class="clickable">
+                    <td>Fabius</td>
+                    <td>Anouchka</td>
+                    <td>ça va ?</td>
+                    <td>04/07/2017</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="well">
+            <h1>Bonjour</h1>
+            <p><label>De :</label> <span>Tamy</span></p>
+            <p><label>&Agrave; :</label> <span>Anouchka</span></p>
+            <p><label>Date :</label> <span>04/07/2017</span></p>
+        </div>
+        <p>Kikou, tu vas bien ?</p>
+    </div>
 </body>
 </html>
